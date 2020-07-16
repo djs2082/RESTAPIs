@@ -44,7 +44,6 @@ class Corona_API(APIView):
             state_name=state.find_all('td')[0].get_text()
             state_name=state_name.replace('-','_')
             state_name=state_name.replace(' ','_')
-            print(state_name)
             if user_state is not None:
                 if(state_name.lower() != user_state.lower()):
                      continue  
