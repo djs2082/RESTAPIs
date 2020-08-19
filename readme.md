@@ -11,9 +11,9 @@ corona cases in that region.
 
 ## Technologies
 
-1)Python3
-2)Django Rest Framework
-3)Docker for Containerization
+1)Python3  
+2)Django Rest Framework  
+3)Docker for Containerization  
 
 ## Installation
 
@@ -31,17 +31,17 @@ pip3 install -r requirements.txt
 
 This project is hosted on Heroku.com
 
-1)http://djs-apis.herokuapp.com/<state-name>/<district-name>/
-        eg: http://djs-apis.herokuapp.com/maharashtra/nanded/
-        show cases in nanded district of maharashtra state
+1)http://djs-apis.herokuapp.com/state_name>/district_name/  
+        eg: http://djs-apis.herokuapp.com/maharashtra/nanded/  
+        show cases in nanded district of maharashtra state  
 
-2)http://djs-apis.herokuapp.com/<state-name>/
-        eg: http://djs-apis.herokuapp.com/maharashtra/
-        show cases in maharastra state
+2)http://djs-apis.herokuapp.com/state_name/  
+        eg: http://djs-apis.herokuapp.com/maharashtra/  
+        show cases in maharastra state  
 
-3)eg: http://djs-apis.herokuapp.com/
-        eg: eg: http://djs-apis.herokuapp.com/
-        show cases throughout the country
+3)eg: http://djs-apis.herokuapp.com/  
+        eg: eg: http://djs-apis.herokuapp.com/  
+        show cases throughout the country  
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
