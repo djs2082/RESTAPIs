@@ -1,27 +1,32 @@
-#utility APIs
+# utility APIs
+This project contains some apis developed by me as required.These apis are as follows:  
+1)Corona API
 
-    This project contains some apis developed by me as required.These apis are as follows:
-    1)Corona API
-
- Corona API:
-        This api shows the live cases of corona in india statewise and district wise.
-        it takes name of state and district as a part of url parameters and return live
-        corona cases in that region.
+Corona API:
+    This api shows the live cases of corona in india statewise and district wise.
+    it takes name of state and district as a part of url parameters and return live
+    corona cases in that region.
 
 
-#Technologies
+## Technologies
 
     Python3
     Django Rest Framework
     Docker for Containerization
 
-##Installation
+## Installation
 
-    This project is containerized using Docker. If you have docker-compose installed on your machine. then just a 'docker-compose up' command will handle depenedencies for you and start project for you.
+    This project is containerized using Docker. If you have docker-compose installed on your machine. then below command will handle depenedencies for you and start project for you.
 
-    if you are not having docker-compose installed, you can install dependencies with the help of requirements.txt file provided. command is 'pip3 install -r requirements.txt'
-
-##usage
+    ```bash
+    docker-compose up
+    ```
+    if you are not having docker-compose installed, you can install dependencies with the help of requirements.txt file provided. with below command 
+    
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+## usage
     This project is hosted on Heroku.com
     
     1)http://djs-apis.herokuapp.com/<state-name>/<district-name>/
