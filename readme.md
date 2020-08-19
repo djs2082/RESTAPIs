@@ -30,8 +30,8 @@ pip3 install -r requirements.txt
 ## usage
 
 This project is hosted on Heroku.com
-
-1)http://djs-apis.herokuapp.com/state_name>/district_name/  
+```bash
+1)http://djs-apis.herokuapp.com/state_name/district_name/  
         eg: http://djs-apis.herokuapp.com/maharashtra/nanded/  
         show cases in nanded district of maharashtra state  
 
@@ -42,6 +42,7 @@ This project is hosted on Heroku.com
 3)eg: http://djs-apis.herokuapp.com/  
         eg: eg: http://djs-apis.herokuapp.com/  
         show cases throughout the country  
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
