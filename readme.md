@@ -36,6 +36,9 @@
             eg: eg: http://djs-apis.herokuapp.com/
             show cases throughout the country
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
 
 
