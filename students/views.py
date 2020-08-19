@@ -4,11 +4,13 @@ from django.shortcuts import get_object_or_404
 from .serializers import StudentsSerializer
 from .models import Students
 from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated
 import json
 # Create your views here.
 
 
 class Students_API(APIView):
+    permission_classes = (IsAuthenticated,)
 
     def get(self, request, reg_no=None):
         if reg_no is not None:
